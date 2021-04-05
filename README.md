@@ -38,12 +38,12 @@ created-at: number,
 
 ```
 description?: string,
-tags?: arrayOf(string),
+tags?: string[],
 preview-image?: string,
-external-link?: shape({ 
+external-link?: { 
   href: string, 
-  title: string 
-}),
+  title?: string 
+},
 original-file-src?: string,
 ```
 
